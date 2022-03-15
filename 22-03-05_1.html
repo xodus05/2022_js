@@ -1,0 +1,40 @@
+<script type="text/javascript">
+
+// function showMessage() {
+// 	// 함수 내부에서 사용할 지역 변수 선언
+// 	let message = "Hello";
+// 	// 함수 내부에서만 message 접근 가능
+// 	alert(message);
+// 	// alert("Hello");
+// }
+
+// showMessage();
+
+// let userName = "John";
+// function showMessage(){
+// 	let message = 'Hello, ' + userName;
+// 	alert(message);
+// 	userName = "Bob";
+// }
+
+// showMessage();
+// alert(userName);
+
+// function showMessage(from, text) {
+// 	alert(from + ': ' + text);
+// }
+
+// showMessage('Ann', 'Hello');
+
+// undefined가 뜸
+// showMessage();
+// showMessage('Ann');
+// 실행은 가능하지만 World는 안나옴
+// showMessage('Ann', 'Hello', 'World');
+
+function showMessage(from, text = "no text given") {
+	alert(from + ': ' + text);
+}
+
+showMessage();
+</script>
